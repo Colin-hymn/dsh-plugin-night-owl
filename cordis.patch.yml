@@ -1,0 +1,7 @@
+# Night Owl —— DSH Web 客户端主题层
+#
+# 只挂载一个客户端插件：它向 ctx.theme 注册一层 token 覆盖，
+# 把深色主题换成 Night Owl 配色，浅色主题保持原样。
+- insert:
+    - id: night-owl
+      name: dsh-plugin-night-owl
